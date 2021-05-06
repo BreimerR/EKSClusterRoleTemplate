@@ -16,12 +16,14 @@ variable aws_vpc_name {
   description = "The target AWS VPC for deploying resources"
 }
 
+//noinspection HILUnresolvedReference
 variable gitlab_account_id {
   type        = string
   default     = var.default_account_id
   description = "GitLab's AWS account used to grant cross-account role access"
 }
 
+//noinspection HILUnresolvedReference
 variable gitlab_external_id {
   type        = string
   default     = var.default_external_id

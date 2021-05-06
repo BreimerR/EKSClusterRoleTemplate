@@ -12,7 +12,5 @@
 # Crash log files
 crash.log
 
-.idea/
-
 *.lock*
 .terraform/
