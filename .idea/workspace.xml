@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/variables.tf" afterDir="false" />
-    </list>
+    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -61,7 +58,228 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Terraform.Deploy">
+    <configuration name="Apply" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="apply" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="apply" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Deploy" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="apply" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="apply" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Get" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Format" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Validate" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Plan" run_configuration_type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="Format" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="fmt" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="fmt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Get" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="get" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="get" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Initialize" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="init" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="init" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Plan" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="plan" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="plan" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Validate" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="validate" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="validate" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="** Destroy" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="destroy" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="destroy" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="envs">
@@ -89,33 +307,16 @@
       </envs>
       <method v="2" />
     </configuration>
-    <configuration name="init" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="allowRunningInParallel" value="false" />
-      <option name="envs">
-        <map>
-          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
-          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
-          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
-          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
-        </map>
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="init" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <option name="PROGRAM_PARAMETERS" value="init" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <envs>
-        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
-        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
-        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
-        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
-      </envs>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Terraform.Initialize" />
+      <item itemvalue="Terraform.Get" />
+      <item itemvalue="Terraform.Format" />
+      <item itemvalue="Terraform.Validate" />
+      <item itemvalue="Terraform.Plan" />
+      <item itemvalue="Terraform.Apply" />
+      <item itemvalue="Terraform.Deploy" />
+      <item itemvalue="Terraform.** Destroy" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,8 +330,16 @@
       <workItem from="1620314190778" duration="4701000" />
       <workItem from="1620379903553" duration="590000" />
       <workItem from="1620381701982" duration="32000" />
-      <workItem from="1620393762711" duration="1381000" />
+      <workItem from="1620393762711" duration="1622000" />
     </task>
+    <task id="LOCAL-00001" summary="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start">
+      <created>1620395879785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620395879785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,15 +356,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="438" y="115" width="1024" height="841" key="#Project_Structure" timestamp="1620312622605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="438" y="115" width="1024" height="841" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1620312622605" />
-    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620395369136">
+    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620396063883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395369136" />
+    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620396063883" />
     <state x="100" y="99" width="1720" height="880" key="DiffContextDialog" timestamp="1620395823053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -164,10 +377,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="803" y="296" width="778" height="481" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620393803679" />
-    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1620317567874">
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1620395910651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620317567874" />
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620395910651" />
     <state x="444" y="268" width="715" height="200" key="Github.ShareDialog" timestamp="1620395472546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -176,6 +389,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="449" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1620395822448" />
+    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1620395882516">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1620395882516" />
     <state x="764" y="451" width="381" height="172" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620395392375">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
