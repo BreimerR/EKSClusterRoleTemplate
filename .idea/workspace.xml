@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/variables.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="f18d678c-75d5-4475-b5bb-0c46a63f6393" />
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="arn:aws:eks:eu-west-2:759281332355:cluster/android-eks-gitlab-main" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1sAPrOGtIZT0WJ21jzXbOJPfmmd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TutorialTest" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map>
+          <entry key="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+          <entry key="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+          <entry key="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+          <entry key="TF_VAR_default_external_id" value="default_account_id_value" />
+        </map>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="init" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="init" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
+        <env name="AWS_DEFAULT_REGION" value="YOUR_DEFAULT_REGION" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="AWS_SECRETE_ACCESS_KEY" />
+        <env name="TF_VAR_default_external_id" value="default_account_id_value" />
+      </envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="" />
+      <created>1620312619602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620312619602</updated>
+      <workItem from="1620312620756" duration="1492000" />
+      <workItem from="1620314190778" duration="4701000" />
+      <workItem from="1620379903553" duration="590000" />
+      <workItem from="1620381701982" duration="32000" />
+      <workItem from="1620393762711" duration="1381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="115" width="1024" height="841" key="#Project_Structure" timestamp="1620312622605">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="438" y="115" width="1024" height="841" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1620312622605" />
+    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620395369136">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395369136" />
+    <state x="100" y="99" width="1720" height="880" key="DiffContextDialog" timestamp="1620395823053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395823053" />
+    <state x="803" y="296" width="778" height="481" key="EnvironmentVariablesDialog" timestamp="1620393803679">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="803" y="296" width="778" height="481" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620393803679" />
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1620317567874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620317567874" />
+    <state x="444" y="268" width="715" height="200" key="Github.ShareDialog" timestamp="1620395472546">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="444" y="268" width="715" height="200" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395472546" />
+    <state x="449" y="174" key="SettingsEditor" timestamp="1620395822448">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="449" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1620395822448" />
+    <state x="764" y="451" width="381" height="172" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620395392375">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="764" y="451" width="381" height="172" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395392375" />
+  </component>
+</project>
