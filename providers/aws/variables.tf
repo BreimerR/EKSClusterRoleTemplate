@@ -17,17 +17,16 @@ variable "aws_vpc_name" {
 }
 
 //noinspection HILUnresolvedReference
-variable "gitlab_account_id" {
+variable "account_id" {
   type = string
-  # default   = get this from your gitlab kubernetes integration window
-  default     = var.default_account_id
+  # default   = "uncomment and define account_id name here. i.e gitlab account id"
   description = "GitLab's AWS account used to grant cross-account role access"
 }
 
 //noinspection HILUnresolvedReference
-variable "gitlab_external_id" {
+variable "external_id" {
   type = string
-  # default   = get this from your gitlab kubernetes integration window
+  # default   = "uncomment and define external_id name here. i.e gitlab external id"
   description = "External ID provided by GitLab as part of the IAM role trust policy to designate who can assume the role"
 }
 
