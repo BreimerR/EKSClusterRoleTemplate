@@ -23,6 +23,13 @@ resource "aws_iam_role" "gitlab" {
                     "sts:ExternalId": "${var.external_id}"
                 }
             }
+        },
+        {
+          "Effect" : "Allow",
+          "Principal" : {
+              "Service" : "eks.amazonaws.com"
+          },
+          "Action" : "sts:AssumeRole"
         }
     ]
 }

@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="Structure update and configurations updates." />
+    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="Updated variable configurations.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Terraform.Format">
+  <component name="RunManager" selected="Terraform.Initialize">
     <configuration name="Apply" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="envs">
@@ -335,6 +337,7 @@
       <workItem from="1620379903553" duration="590000" />
       <workItem from="1620381701982" duration="32000" />
       <workItem from="1620393762711" duration="3460000" />
+      <workItem from="1620400865769" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start">
       <created>1620395879785</created>
@@ -357,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620397578937</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated variable configurations.">
+      <created>1620400967158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620400967158</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated variable configurations.">
+      <created>1620401155700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620401155700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,12 +390,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
     <MESSAGE value="Added Easy to use launch configurations for Intellij" />
     <MESSAGE value="Structure update and configurations updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure update and configurations updates." />
+    <MESSAGE value="Updated variable configurations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated variable configurations." />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="115" width="1024" height="841" key="#Project_Structure" timestamp="1620312622605">
@@ -405,30 +424,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="444" y="268" width="715" height="200" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395472546" />
-    <state width="1872" height="379" key="GridCell.Tab.0.bottom" timestamp="1620397905635">
+    <state width="1872" height="149" key="GridCell.Tab.0.bottom" timestamp="1620410457305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1620397905635" />
-    <state width="1872" height="379" key="GridCell.Tab.0.center" timestamp="1620397905634">
+    <state width="1872" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1620410457305" />
+    <state width="1872" height="149" key="GridCell.Tab.0.center" timestamp="1620410457304">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="379" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1620397905634" />
-    <state width="1872" height="379" key="GridCell.Tab.0.left" timestamp="1620397905633">
+    <state width="1872" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1620410457304" />
+    <state width="1872" height="149" key="GridCell.Tab.0.left" timestamp="1620410457303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="379" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1620397905633" />
-    <state width="1872" height="379" key="GridCell.Tab.0.right" timestamp="1620397905634">
+    <state width="1872" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1620410457303" />
+    <state width="1872" height="149" key="GridCell.Tab.0.right" timestamp="1620410457305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="379" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1620397905634" />
+    <state width="1872" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1620410457305" />
     <state x="449" y="174" key="SettingsEditor" timestamp="1620395822448">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="449" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1620395822448" />
-    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1620397586390">
+    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1620401159876">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1620397586390" />
+    <state x="555" y="275" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1620401159876" />
     <state x="764" y="451" width="381" height="172" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620395392375">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
