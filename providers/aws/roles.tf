@@ -13,14 +13,14 @@ resource "aws_iam_role" "gitlab" {
             "Effect": "Allow",
             "Principal": {
                 "AWS": [
-                    "arn:aws:iam::${var.gitlab_account_id}:root"
+                    "arn:aws:iam::${var.account_id}:root"
                 ],
                 "Service":"eks.amazonaws.com"
             },
             "Action": "sts:AssumeRole",
             "Condition": {
                 "StringEquals": {
-                    "sts:ExternalId": "${var.gitlab_external_id}"
+                    "sts:ExternalId": "${var.external_id}"
                 }
             }
         }
