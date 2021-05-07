@@ -3,8 +3,8 @@
 
 # Provides a cross-account role for GitLab to authenticate and manage the EKS cluster
 resource "aws_iam_role" "gitlab" {
-  name = "${var.cluster_name}-role"
-  description = "Provides a cross-account role for GitLab to authenticate and manage the EKS cluster"
+  name               = "${var.cluster_name}-role"
+  description        = "Provides a cross-account role for GitLab to authenticate and manage the EKS cluster"
   assume_role_policy = <<POLICY
 {
     "Version": "2012-10-17",
@@ -29,6 +29,6 @@ resource "aws_iam_role" "gitlab" {
 POLICY
   tags = {
     environment = var.aws_tag_environment
-    source = "Terraform"
+    source      = "Terraform"
   }
 }

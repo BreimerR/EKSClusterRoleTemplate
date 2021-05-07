@@ -10,7 +10,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
+    <list default="true" id="c7612d06-2f26-4e7f-b6ba-05d225d35201" name="Default Changelist" comment="Added Easy to use launch configurations for Intellij">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locals.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/locals.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policies.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/policies.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policies_documents.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/policies_documents.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role_policy_attachment.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/role_policy_attachment.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/roles.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_group.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/security_group.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/providers/aws/vpc.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,11 +69,26 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/providers" />
+      <recent name="$PROJECT_DIR$/aws" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Terraform.Deploy">
+  <component name="RunManager" selected="Terraform.Format">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Apply" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="envs">
@@ -74,9 +104,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="apply" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -101,9 +131,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="apply" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -133,9 +163,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="fmt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -160,9 +190,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="get" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -187,9 +217,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="init" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -214,9 +244,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="plan" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -241,9 +271,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="validate" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -268,9 +298,9 @@
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/providers/aws" />
       <option name="PROGRAM_PARAMETERS" value="destroy" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/providers/aws" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs>
         <env name="AWS_ACCESS_KEY_ID" value="AWS_ACCESS_KEY_ID_VALUE" />
@@ -330,7 +360,7 @@
       <workItem from="1620314190778" duration="4701000" />
       <workItem from="1620379903553" duration="590000" />
       <workItem from="1620381701982" duration="32000" />
-      <workItem from="1620393762711" duration="1622000" />
+      <workItem from="1620393762711" duration="3040000" />
     </task>
     <task id="LOCAL-00001" summary="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start">
       <created>1620395879785</created>
@@ -339,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620395879785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Easy to use launch configurations for Intellij">
+      <created>1620396113400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620396113400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,17 +395,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurations corrections and cleanup. Added .workspace to configurations for Intellij configs template start" />
+    <MESSAGE value="Added Easy to use launch configurations for Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Easy to use launch configurations for Intellij" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="115" width="1024" height="841" key="#Project_Structure" timestamp="1620312622605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="438" y="115" width="1024" height="841" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1620312622605" />
-    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620396063883">
+    <state x="531" y="92" width="1084" height="988" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620397340433">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="531" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620396063883" />
+    <state x="531" y="92" width="1084" height="988" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620397340433" />
     <state x="100" y="99" width="1720" height="880" key="DiffContextDialog" timestamp="1620395823053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -377,14 +415,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="803" y="296" width="778" height="481" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620393803679" />
-    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1620395910651">
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1620396656785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620395910651" />
+    <state x="743" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620396656785" />
     <state x="444" y="268" width="715" height="200" key="Github.ShareDialog" timestamp="1620395472546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="444" y="268" width="715" height="200" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1620395472546" />
+    <state width="1872" height="379" key="GridCell.Tab.0.bottom" timestamp="1620397477075">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1620397477075" />
+    <state width="1872" height="379" key="GridCell.Tab.0.center" timestamp="1620397477074">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="379" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1620397477074" />
+    <state width="1872" height="379" key="GridCell.Tab.0.left" timestamp="1620397477073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="379" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1620397477073" />
+    <state width="1872" height="379" key="GridCell.Tab.0.right" timestamp="1620397477075">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="379" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1620397477075" />
     <state x="449" y="174" key="SettingsEditor" timestamp="1620395822448">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

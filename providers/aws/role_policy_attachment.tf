@@ -7,5 +7,5 @@ resource "aws_iam_role_policy_attachment" "eksClusterPolicy" {
 # Provides an attachment of the GitLabEKSPolicy policy to the new GitLab role
 resource "aws_iam_role_policy_attachment" "gitlab" {
   policy_arn = aws_iam_policy.gitlab.arn
-  role = aws_iam_role.gitlab.name
+  role       = aws_iam_role.gitlab.name
 }
